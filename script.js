@@ -1,5 +1,5 @@
-const chk = document.getElementById('chk')
+const check = document.getElementById('check')
 
-chk.addEventListener('change', () => {
+check.addEventListener('change', () => {
     document.body.classList.toggle('dark')
 })
